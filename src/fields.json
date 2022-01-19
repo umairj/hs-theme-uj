@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Text Color",
+        "name": "text_color",
+        "type": "color",
+        "default": {
+            "color": "#111"
+        }
+    },
+    {
+        "label" : "Heading font",
+        "name" : "heading_font",
+        "required" : false,
+        "locked" : false,
+        "load_external_fonts" : true,
+        "type" : "font",
+        "default" : {
+            "size" : 26,
+            "font":"Merriweather",
+            "font_set":"GOOGLE"
+        },
+        "visibility" : {
+            "hidden_subfields" : {
+            "color": true,
+            "size": true,
+            "styles": true
+            }
+        }
+    },
+    {
+        "label" : "Body font",
+        "name" : "body_font",
+        "required" : false,
+        "locked" : false,
+        "load_external_fonts" : true,
+        "type" : "font",
+        "default" : {
+            "size" : 14,
+            "font":"Georgia",
+            "font_set":"GOOGLE"
+        },
+        "visibility" : {
+            "hidden_subfields" : {
+            "color": true,
+            "size": true,
+            "styles": true
+            }
+        }
+    }
+]

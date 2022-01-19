@@ -1,0 +1,26 @@
+{% include './generic/_reset.css' %}
+{% include './generic/_normalize.css' %}
+
+{% include './objects/_layout.css' %}
+{% include './objects/_containers-dnd.css' %}
+
+body {
+    color: {{ theme.text_color.color }};
+    font-family: {{ theme.body_font.font }};
+}
+
+h1, h2, h3, h4 {
+    font-family: {{ theme.heading_font.font }};
+}
+
+header, footer {
+    background-color: #ddd;
+}
+
+header {
+    padding-top:30px;
+}
+
+header h1 {
+    margin-bottom: 0;
+}

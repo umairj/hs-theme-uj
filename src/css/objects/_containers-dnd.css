@@ -1,0 +1,24 @@
+.content-wrapper {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .content-wrapper {
+      padding: 0 4rem;
+    } 
+  }
+  
+  .dnd-section > .row-fluid {
+    margin: 0 auto;
+  }
+  
+  .dnd-section .dnd-column {
+    padding: 0 1rem;
+  }
+  
+  @media (max-width: 767px) {
+    .dnd-section .dnd-column {
+      padding: 0;
+    }
+  }
