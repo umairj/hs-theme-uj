@@ -1,0 +1,15 @@
+// theme.json
+
+{
+	"label": "Sample Theme UJ",
+	"preview_path": "./templates/home-page.html",
+	"enable_domain_stylesheets": false,
+	"version": "0.1",
+	"author": {
+		"name": "Umair Jabbar",
+		"email": "umairj@live.com",
+		"url": "https://umairj.com/"
+	},
+	"license": "./license.txt",
+	"is_available_for_new_content": true
+}
