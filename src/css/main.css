@@ -14,13 +14,44 @@ h1, h2, h3, h4 {
 }
 
 header, footer {
-    background-color: #ddd;
+    background-color: #ededed;
+    overflow: auto;
 }
 
 header {
     padding-top:30px;
+    border-bottom: 1px solid #cecece;
+}
+
+footer {
+    margin-top:40px;
+    border-top: 1px solid #cecece;
 }
 
 header h1 {
     margin-bottom: 0;
+}
+
+.content-wrapper {
+    overflow: auto;
+}
+
+.nav-wrapper {
+    margin:20px 0;
+}
+
+.nav-wrapper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-wrapper ul li {
+    display:inline-block;
+    margin-right:20px;
+}
+
+.nav-wrapper ul li a {
+        color:#000;
+        text-decoration: none;
 }
